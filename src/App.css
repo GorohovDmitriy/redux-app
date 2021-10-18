@@ -1,0 +1,49 @@
+.ui.card > .image > img,
+.ui.cards > .card > .image > img {
+	display: block;
+	width: 100%;
+	border-radius: inherit;
+	height: 300px;
+}
+.ui.cards > .card {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0.875em 0.5em;
+	float: none;
+	height: 460px;
+}
+.ui.card > .content > .header:not(.ui),
+.ui.cards > .card > .content > .header:not(.ui) {
+	font-weight: 700;
+	font-size: 15px;
+	margin-top: -0.21425em;
+	line-height: 1.28571429em;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ui.card .meta,
+.ui.cards > .card .meta {
+	font-size: 21px;
+	color: rgba(0, 0, 0, 0.4);
+	margin-top: 30px;
+}
+.ui.card > .content,
+.ui.cards > .card > .content {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	border: none;
+	border-top: 1px solid rgba(34, 36, 38, 0.1);
+	background: 0 0;
+	margin: 0;
+	padding: 10px 10px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-size: 24px;
+	border-radius: 0;
+}
+.ui.fixed.menu + .ui.grid {
+	padding-top: 4.75rem;
+}
